@@ -48,7 +48,7 @@ function App() {
           />
           <Route 
             path="/" 
-            element={<Navigate to="/chat" replace />} 
+            element={<Navigate to="/login" replace />} 
           />
         </Routes>
       </Router>
